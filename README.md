@@ -2,187 +2,106 @@
 
 > **A little AI. A little music. A little nature. A reason to step outside.**
 
-**A Little Outside** is an open-source AI experiment designed to turn a person's mood into a small reason to step away from the screen and reconnect with the world outside.
+**A Little Outside** is a small AI-powered experience built for **Hacktoberfest 2026 – DEV Open-Source AI Challenge: Touch Grass**.
 
-Instead of keeping people engaged with another app, the goal is simple:
+The idea is simple:
 
-**Use AI to help people use their screens less.**
+Instead of using AI to keep people on their screens longer, what if we built an AI whose best outcome is that the user **stops using it**?
+
+A Little Outside takes what someone is feeling, an optional personal memory, and the amount of time they have, then creates a small, personalized outdoor experience.
+
+The screen is only the beginning.
+
+**The real experience happens outside. 🌿**
 
 ---
 
 ## 💡 The Idea
 
-Modern life can become a cycle of screens, notifications, classes, assignments, work, and endless scrolling.
+Modern AI assistants are usually designed to keep us interacting with them:
 
-Sometimes we don't need another productivity tool.
+- Ask another question.
+- Generate another answer.
+- Continue the conversation.
+- Stay on the screen.
 
-We just need a small reason to pause.
+A Little Outside takes the opposite approach.
 
-A Little Outside explores whether an open-weight AI model can transform a user's current mood into a short, personalized outdoor experience.
+It uses AI to create a gentle reason to **leave the conversation**.
+
+The user can share:
+
+- How they are feeling
+- What's currently on their mind
+- An optional personal memory
+- How much time they have
+
+The AI then turns that information into a simple outdoor moment involving things such as:
+
+- Walking somewhere nearby
+- Sitting outside
+- Looking at the sky
+- Listening to surrounding sounds
+- Noticing trees, sunlight, air or temperature
+- Remembering a familiar feeling
+- Simply being present for a few minutes
+
+There is no productivity goal.
+
+There is no fitness challenge.
+
+There is no requirement to document the experience.
+
+Just a small invitation to go outside.
+
+---
+
+## 🧠 The Memory Connection
+
+One of the ideas behind the project is that sometimes we don't need a completely new experience.
+
+Sometimes we just want to reconnect with a feeling we already know.
+
+The app therefore allows the user to optionally share a small personal memory.
 
 For example:
 
-> **"My mind is crowded."**
+> "I used to sit outside at home in the evening and listen to the sounds around me."
 
-The application could respond with a gentle invitation such as:
+The AI does not invent details from that memory.
 
-> *You don't have to figure everything out right now.*
->
-> *Step outside for a few minutes.*
->
-> *Find a place where you can see the sky.*
->
-> *Walk slowly and notice three sounds you normally ignore.*
->
-> *You might enjoy listening to something calm while you walk.*
->
-> **Now put your phone away. 🌿**
+Instead, it uses the **feeling and atmosphere** of what the person shared to shape their outdoor experience.
 
-The screen is only the beginning.
+If the user does not want to share a memory, that's completely fine.
 
-The real experience happens outside.
+The experience works without one.
 
 ---
 
-## 🎯 What It Aims to Do
-
-A Little Outside is designed to:
-
-* Turn a user's mood into a simple outdoor activity
-* Encourage short breaks from screens
-* Help people notice their surroundings
-* Create small moments of connection with nature
-* Offer optional mood-based music suggestions
-* Keep the AI interaction short and purposeful
-
-The goal is **not** to keep the user inside the application.
-
-The goal is to help them leave it.
-
----
-
-## 🤖 Open-Source AI
-
-Open-weight AI is at the core of this project.
-
-The model will be used to generate personalized outdoor experiences based on inputs such as:
-
-* Mood
-* Available time
-* Preferred activity
-* Surrounding environment
-
-The project explores how an open AI approach can make this experience more transparent, adaptable, and potentially usable without depending entirely on a closed AI service.
-
-More details about the model, inference approach, and implementation will be added as development progresses.
-
----
-
-## 🎵 Music
-
-Music is an optional part of the experience.
-
-Rather than making music the focus, A Little Outside may suggest a suitable mood or type of music that someone could listen to while spending time outdoors.
-
-The intention is simple:
-
-**The music accompanies the moment. It doesn't replace the moment.**
-
----
-
-## 🌱 The Philosophy
-
-> **The best outcome of the app is when you stop using it.**
-
-A Little Outside is intentionally designed around this idea.
-
-No endless scrolling.
-
-No engagement loops.
-
-No pressure to stay in the application.
-
-Just a small invitation to step outside.
-
----
-
-## 🛠️ Planned Technology
-
-The initial version is planned to use:
-
-* **Python**
-* **Streamlit**
-* **Open-weight AI model**
-* **GitHub**
-
-Additional technologies will be documented as the project develops.
-
----
-
-## 🚧 Project Status
-
-**Currently in development.**
-
-This project is being built for:
-
-**Hacktoberfest Open-Source AI Challenge — Week 1: Touch Grass**
-
-The project will be updated as features are implemented and tested in the real world.
-
----
-
-## 🗺️ Planned User Flow
+## ✨ How It Works
 
 ```text
-User opens A Little Outside
-          ↓
-     Chooses a mood
-          ↓
- Provides a little context
-          ↓
-    Open-weight AI
-          ↓
-Personalized outdoor experience
-          ↓
- Optional music suggestion
-          ↓
-   "I'm going outside"
-          ↓
-      📱 Put it away
-          ↓
-        🌿 🌳 ☀️
-```
-
----
-
-## 🌍 Why Open Innovation?
-
-This project explores an important question:
-
-> **Can we use open AI to encourage people to spend less time interacting with AI?**
-
-An open-weight approach gives developers more control over how the model is run, adapted, and integrated into the experience.
-
-It also opens possibilities for privacy-focused or local inference, where personal inputs do not necessarily have to be sent to a closed external AI service.
-
-The final implementation will document exactly what the open model makes possible.
-
----
-
-## 📌 Hacktoberfest
-
-Built for the **Hacktoberfest Open-Source AI Challenge — Week 1: Touch Grass**.
-
-The challenge asks participants to build something with open-weight models or open-source AI that gets people off the screen and into the world.
-
-**A Little Outside** is our attempt to explore that idea through small, emotional, personalized outdoor experiences.
-
----
-
-## 👨‍💻 Author
-
-**Arnab Dutta**
-
-Built with curiosity, open-source technology, and the belief that sometimes the best thing an AI can tell you is:
-
-> **"Go outside." 🌿**
+        What are you feeling?
+                  │
+                  ▼
+        Optional personal memory
+                  │
+                  ▼
+           Available time
+                  │
+                  ▼
+          Open-weight AI
+                  │
+                  ▼
+       Personalized outdoor
+             experience
+                  │
+                  ▼
+           Optional music
+             suggestion
+                  │
+                  ▼
+       "I'm going outside" 🌿
+                  │
+                  ▼
+          Leave the screen
