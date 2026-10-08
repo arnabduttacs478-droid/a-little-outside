@@ -1,5 +1,12 @@
 # 🌿 A Little Outside
 
+### 🌐 Live Demo
+
+👉 **[Try A Little Outside](https://a-little-outside.onrender.com/)**
+
+> The best outcome of the app is when you stop using it and step outside. 🌿
+> 
+
 > **A little AI. A little music. A little nature. A reason to step outside.**
 
 **A Little Outside** is a small AI-powered experience built for **Hacktoberfest 2026 – DEV Open-Source AI Challenge: Touch Grass**.
